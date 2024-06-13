@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="styles.css">
     <title>Каталог</title>
     <script>
+        // функция для проверки размера экрана. Я хотел сделать отдельную странцу под мобилку, но мне стало лень
         function checkScreenWidth() {
             if (window.innerWidth <= 1310) {
                 window.location.href = 'empty.html'
             }
         }
-
-        window.onload = checkScreenWidth;
+        // функция нигде не вызывается, но её определение я оставил на будущее
     </script>
 </head>
 <body>
