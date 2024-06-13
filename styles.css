@@ -388,7 +388,6 @@ body {
     text-align: center;
     height: calc(100vh - 280px);
     width: 100%;
-    flex-direction: column;
 }
 
 
@@ -831,5 +830,13 @@ body {
     .info__second__element {
         border-right: none;
         border-bottom: 1px solid black;
+    }
+
+    .empty {
+        height: 50vh;
+    }
+
+    .empty p {
+        font-size: 30px;
     }
 }
