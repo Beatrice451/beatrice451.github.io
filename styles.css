@@ -808,6 +808,7 @@ body {
         font-size: 30px;
         border: none;
         cursor: pointer;
+        border-radius: 30px;
     }
 
     * {
